@@ -1,0 +1,84 @@
+{
+		"items":[
+			{
+			"type":["http://schema.org/CreativeWork"],
+			"id":"[[[NOT SURE WHAT WE SHOULD PUT HERE]]]",
+			"properties":{
+				"inLanguage":["Language Field (example format: en-US)"],
+				"name":["Title Field"],
+				"url":["URL Field"],
+				"about":["Topic/Subject Field"],
+				"dateCreated":["Created On Field"],
+				"thumbnailUrl":["Thumbnail URL"],
+				"author":[{
+					"type":["http://schema.org/Person"],
+					"properties":{
+						"name":["Created By Field"]
+					}
+				}],
+				"publisher":[{
+					"type":["http://schema.org/Organization"],
+					"properties":{
+						"name":["Publisher Field"]
+					}
+				}],
+				"useRightsURL":["Usage Rights URL Field"],
+				"isBasedOnURL":["Is Based On URL Field"],
+				"intendedEndUserRole":[
+					"Mentor",
+					"Parent"
+				],
+				"typicalAgeRange":[
+					"12-14",
+					"14-16"
+				],
+				"educationalUse":[
+					"Classifying",
+					"Comparing"
+				],
+				"educationalAlignment":[
+					{
+						"type":["http://schema.org/AlignmentObject"],
+						"id":"urn:corestandards.org:guid:FBCBB7C696FE475695920CA622B1C854",
+						"properties":{
+							"name":["Common Core Standards"],
+							"alignmentType":["teaches"],
+							"targetDescription":["Make sense of problems and persevere in solving them."],
+							"targetName":["CCSS.Math.Practice.MP1"],
+							"targetURL":["http://corestandards.org/Math/Practice/MP1"]
+						}
+					},
+					{
+						"type":["http://schema.org/AlignmentObject"],
+						"id":"urn:corestandards.org:guid:FBCBB7C696FE475695920CA622B1C855",
+						"properties":{
+							"name":["Common Core Standards"],
+							"alignmentType":["assesses"],
+							"targetDescription":["Reason abstractly and quantitatively."],
+							"targetName":["CCSS.Math.Practice.MP2"],
+							"targetURL":["http://corestandards.org/Math/Practice/MP2"]
+						}
+					}
+				],
+				"interactivityType":[
+					"active",
+					"expositive"
+				],
+				"timeRequired":["P3M"],
+				"learningResourceType":[
+					"Calculator",
+					"E-Mail"
+				],
+				"mediaType":[
+					"Audio CD",
+					"AudioTape"
+				],
+				"groupType":[
+					"Class",
+					"Community",
+					"Grade"
+				]
+			}
+			}
+		]
+	}

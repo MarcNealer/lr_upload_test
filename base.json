@@ -1,0 +1,19 @@
+{
+		"doc_type": "resource_data",
+		"doc_version": "0.49.0",
+		"active": true,
+		"resource_data_type": "metadata",
+		"resource_locator": "http://example.com/oauth-sample/resource",
+		"keys": [ ],
+		"payload_placement": "inline",
+		"payload_schema": [ "LRMI"],
+		"resource_data": "",
+		"TOS": {
+			"submission_TOS": "http://www.learningregistry.org/information-assurances/open-information-assurances-1-0"
+		        },
+		"identity": {
+			"signer": "Person or Organization",
+			"submitter": "Person or Organization",
+			"submitter_type": "user"
+		            }
+}
